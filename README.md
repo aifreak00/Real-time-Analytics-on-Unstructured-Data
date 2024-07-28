@@ -69,7 +69,7 @@ Follow these steps to run the project:
 
 4. **Run the Spark Job:** Execute the Spark job with the following command:
    ```bash
-   docker exec -it aws_spark_unstructured-spark-master-1 spark-submit \
+   docker exec -it My_spark_unstructured-spark-master-1 spark-submit \
    --master spark://spark-master:7077 \
    --packages org.apache.hadoop:hadoop-aws:3.3.1,com.amazonaws:aws-java-sdk:1.11.469 \
    main.py
