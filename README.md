@@ -105,5 +105,6 @@ The project leverages **AWS S3** for storing the processed data. S3 offers durab
 AWS Glue Crawler reads the data in the Parquet files, creates a table schema, and stores it in a database. This allows for seamless data exploration and verification of results.
 
 # Architecture Workflow
- 
+ ![332025960-7bd8b823-c3a1-4d98-a676-6180a5a6f01e](https://github.com/user-attachments/assets/43d1a34c-5674-45b8-ba7b-20221f124227)
+
  
